@@ -1,0 +1,162 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Chris's Résumé</title>
+<link rel="icon" href="chris13524.png"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<script src="https://use.fontawesome.com/031ecd8c10.js"></script>
+</head>
+<body>
+<div style="margin-top:1rem;" class="container">
+
+<h1><a href="/"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i></a>&nbsp;Chris's Résumé</h1>
+<span class="glyphicon glyphicon-link"></span>
+<hr/>
+
+<h2>Education</h2>
+<ul>
+<!--li>graduated <a href="http://cvschools.org">Cumberland Valley High School</a> in 2017</li-->
+<li>attending <a href="http://harrisburgu.edu">Harrisburg University of Science and Technology</a>, majoring in computer science, 2017-present</li>
+</ul>
+
+<!--h2>Awards</h2>
+<ul>
+<li>Computer Science Academic Award from CVHS</li>
+<li>Eagle Scout</li>
+</ul-->
+
+<h2>Skills</h2>
+<span class="text-muted">grayed out items are ones I'm less familiar with</span>
+<ul>
+
+<li>general-purpose languages<ul>
+<li>Java</li>
+<li>Groovy</li>
+<li>C++</li>
+<li>Rust</li>
+<li class="text-muted">x86 assembly (Intel syntax)</li>
+</ul></li>
+
+<li>desktop<ul>
+<li>JavaFX</li>
+<li class="text-muted">Swing</li>
+</ul></li>
+
+<li>web<ul>
+<li>Grails 3</li>
+<li>HTML5</li>
+<li>CSS, SASS</li>
+<li>JavaScript, TypeScript</li>
+<li>Angular 2+, Angular Universal</li>
+<li>Bootstrap v4</li>
+<li class="text-muted">Rust WASM</li>
+<li>Node.js</li>
+</ul></li>
+
+<li>mobile<ul>
+<li class="text-muted">Android (with NDK)</li>
+</ul></li>
+
+<li>dev tools<ul>
+<li>Git</li>
+<li>Make</li>
+<li>Bash</li>
+<li>gdb</li>
+<li>Jenkins</li>
+<li><a href="https://drone.io">Drone</a></li>
+<li>Travis CI</li>
+<li><a href="http://spockframework.org/">Spock</a></li>
+<li><a href="https://www.protractortest.org/">Jasmine</a></li>
+<li><a href="https://www.protractortest.org/">Protractor</a></li>
+</ul></li>
+
+<li>sysadmin stuff<ul>
+<li>Docker, Docker Compose</li>
+<li>ZFS</li>
+<li>Nginx</li>
+<li class="text-muted">Tomcat</li>
+<li>MariaDB</li>
+<li>Redis</li>
+<li class="text-muted">Apache HTTP Server</li>
+<li>Let's Encrypt</li>
+<li class="text-muted">email administration (Postfix, Dovecot, SpamAssassin)</li>
+<li>Mailgun</li>
+<li>DigitalOcean</li>
+<li>DNS, <span class="text-muted">DNSSEC</span></li>
+</ul></li>
+
+<li>not sure what to call these<ul>
+<li>Kill Bill <a href="http://killbill.io"><i class="fa fa-link" aria-hidden="true"></i></a></li>
+<li>Mail-in-a-Box <a href="https://mailinabox.email/"><i class="fa fa-link" aria-hidden="true"></i></a></li>
+<li>Cloudflare (this site is hosted through it)</li>
+</ul></li>
+
+<li>low-level stuff<ul>
+<li>UEFI</li>
+<li>Buildroot</li>
+</ul></li>
+
+</ul>
+
+<hr/>
+
+<h2>Projects</h2>
+
+<h4>GivingTools <a href="https://givingtools.com/onlinegiving"><i class="fa fa-link" aria-hidden="true"></i></a></h4>
+<p>My current "full time" job. GivingTools is a web service that makes it easy for non-profits to accept
+donations, track, and report them. Uses Angular 5 for the front-end, communicates over a RESTful API to
+the Grails 3 backend. Customers can integrate various payment processors (BluePay, Stripe, PayPal) to their
+account to process one-time and recurring payments. Customers can link donors to a GivingTools "giving page"
+or embed a customized form on their webiste. Also uses Docker, ZFS, MariaDB, Redis, and others. I also
+handle customer support sometimes.</p>
+
+<h4>DieFarbe <a href="https://github.com/diefarbe"><i class="fa fa-link" aria-hidden="true"></i></a></h4>
+<p>Worked with a group of ~5 people to reverse engineer the
+<a href="https://www.daskeyboard.com/p/5q-cloud-connected-rgb-mechanical-keyboard/">Das Keyboard 5Q</a>.
+Used Wireshark to figure out the USB protocol and wrote several Node-based libraries and
+apps to talk to the keyboard.</p>
+
+<h4>Mail Bucket <a href="https://mailbucket.io"><i class="fa fa-link" aria-hidden="true"></i></a></h4>
+<p>A simple tool that acts as a web-enabled mail server. Mail delivered to this server will be
+available for querying via the web API. Makes it super easy to test mail delivery in a web application.
+Uses Grails 3 and Docker.</p>
+
+<h4>DummyPay <a href="https://dummypay.io"><i class="fa fa-link" aria-hidden="true"></i></a></h4>
+<p>Another simple tool that allows you to unit test your checkout system. Not as simple as Mail Bucket,
+but acts as a generic payment processor you can integrate with. Uses Grails 3 and Docker.</p>
+
+<h4>Private PM <a href="https://privatepm.com"><i class="fa fa-link" aria-hidden"true"></i></a></h4>
+<p>A tool that allows you to encrypt messages, but only allow decryption for a period of time. Uses
+Angular 6, Angular Universal, Node.js, Redis, and Docker.</p>
+
+<h4>Project Asiago <a href="https://asiago.io"><i class="fa fa-link" aria-hidden="true"></i></a></h4>
+<p>An operating system, standard library, and programming language written in C++. (still a heavy WIP
+and being rewritten in Rust)</p>
+
+<h4>NeonOrb.com <!--a href="https://neonorb.com"><i class="fa fa-link" aria-hidden="true"></i></a--></h4>
+<p>A website I created to host the programs I sell. Written using Grails, Bootstrap, and
+AngularJS 1.4. This along with several other systems are all hosted on Docker. Currently offline
+as I've been busy with other projects.</p>
+
+<h4>Derby Pro <!--a href="https://neonorb.com/derbypro"><i class="fa fa-link" aria-hidden="true"></i></a--></h4>
+<p>Pinewood derby management software. Written in Java using JavaFX as the GUI library. It
+requires authentication and self-updates through the Neon Orb website.</p>
+
+<h4>Other Projects</h4>
+<p>Also, checkout my <a href="https://github.com/chris13524">GitHub</a> and <a href="https://stackoverflow.com/users/3171100/chris-smith">Stack Overflow</a> accounts.
+<p>These are some of the smaller projects I've worked on:</p>
+<ul>
+<li><a href="https://theredstonescientist.com">TheRedstoneScientist.com</a> - WordPress with customized template</li>
+<li><a href="https://onlinegivingguide.com/expense-calculator.html">Online Giving Guide Expense Calculator</a> - AngularJS calculator thingie</li>
+<li><a href="https://github.com/fathomstudio/killbill-bluepay-plugin">Kill Bill BluePay Plugin</a> - Kill Bill plugin for the BluePay payment gateway</li>
+<li><a href="https://github.com/fathomstudio/killbill-basecommerce-plugin">Kill Bill Base Commerce Plugin</a> - Kill Bill plugin for the Base Commerce payment gateway</li>
+<li><a href="https://github.com/fathomstudio/killbill-dummypay-plugin">Kill Bill DummyPay Plugin</a> - Kill Bill plugin for the fake "DummyPay" payment gateway</li>
+</ul>
+
+</div>
+</body>
+</html>
